@@ -7,9 +7,9 @@ terraform {
 }
 
 variable "parameter" {
-    default = [
-        {name = "test", value="string", type= "test"},
-        {name = "test1", value="string", type= "test1"}
+    default =   [
+        {name = "test", type="string", value="test"}, 
+        {name = "test1", type="string", value= "test1"}
     ]  
 }
 
