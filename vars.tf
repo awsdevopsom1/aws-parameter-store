@@ -1,6 +1,5 @@
 variable "parameter" {
     default =   [
-        
         {name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cluys2ag2dvp.us-east-1.rds.amazonaws.com"},
         
 
